@@ -1,0 +1,62 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+.monospace {
+    font-family: monospace, Arial,sans-serif;
+    background-color: lightskyblue;
+    color: rgb(12, 28, 59);
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid rgb(253, 252, 252);
+    background-color: rgba(12, 28, 59, 75%);
+}
+
+.tag,
+.attribute,
+.name {
+    width: 120px;
+}
+
+.tag,
+.attribute {
+    background-color: lightskyblue;
+    color: rgb(12, 28, 59);
+}
+
+.description,
+.comments {
+    width: 500px;
+}
+
+table {
+    margin: 0 auto;
+    
+}
+
+body {
+    background-image: url('https://wallpapercave.com/dwp1x/wp7420862.jpg');
+    background-size: cover;
+    background-color: rgb(12, 28, 59);
+    color: moccasin;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    background-color: azure;
+    background-size: cover;
+    width: 1266px;
+    padding: 20px 0;
+    margin: 5px auto;
+    color: orangered;
+}
+
+h1 {
+    font-size: 45px;
+}

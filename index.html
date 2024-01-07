@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags reference</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+    <header>
+        <h1>The Most Common HTML Tags and Attributes</h1>
+    </header>
+
+    <main>
+       
+<!-- Tags Table -->
+        <table>
+            <tr><h2>HTML Tags</h2></tr>
+            <tr>
+                <th class="tag"><h3>Tag</h3></th>
+                <th class="name"><h3>Name</h3></th>
+                <th class="description"><h3>Description</h3></th>
+                <th class="comments"><h3>Comments</h3></th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td class="tag monospace">&lt;body&gt;</td>
+                    <td class="name">Body</td>
+                    <td class="description">The key HTML element that represents the content of an HTML document.</td>
+                    <td class="comments">There can be only one <span class="monospace">&lt;body&gt;</span> element in a document.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;h1&gt; to &lt;h6&gt;</td>
+                    <td class="name">Heading</td>
+                    <td class="description">The elements that represent six levels of section headings.</td>
+                    <td class="comments"><span class="monospace">&lt;h1&gt;</span> is the highest section level and <span class="monospace">&lt;h6&gt;</span> is the lowest.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;p&gt;</td>
+                    <td class="name">Paragraph</td>
+                    <td class="description">The element that represents a paragraph.</td>
+                    <td class="comments"></td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;span&gt;</td>
+                    <td class="name">Span</td>
+                    <td class="description">A generic inline container for phrasing content.</td>
+                    <td class="comments">It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element is appropriate.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;div&gt;</td>
+                    <td class="name">Division</td>
+                    <td class="description">The generic container for flow content.</td>
+                    <td class="comments"><span class="monospace">&lt;div&gt;</span> has no effect on the content or layout until styled in some way using CSS.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;em&gt;</td>
+                    <td class="name">Emphasis</td>
+                    <td class="description">The element that marks text that has stress emphasis.</td>
+                    <td class="comments">The <span class="monospace">&lt;em&gt;</span> element can be nested, with each level of nesting indicating a greater degree of emphasis.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;strong&gt;</td>
+                    <td class="name">Strong Importance</td>
+                    <td class="description">The element that indicates that its contents have strong importance, seriousness, or urgency.</td>
+                    <td class="comments">Browsers typically render the contents in bold type.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;br&gt;</td>
+                    <td class="name">Line Break</td>
+                    <td class="description">The element that produces a line break in text.</td>
+                    <td class="comments">It is useful for writing a poem or an address, where the division of lines is significant.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;ol&gt;</td>
+                    <td class="name">Ordered List</td>
+                    <td class="description">The element that represents an ordered list of items.</td>
+                    <td class="comments">The list is typically rendered as a numbered list.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;ul&gt;</td>
+                    <td class="name">Unordered List</td>
+                    <td class="description">The element that represents an unordered list of items.</td>
+                    <td class="comments">The list is typically rendered as a bulleted list.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;li&gt;</td>
+                    <td class="name">List Item</td>
+                    <td class="description">An item in a list.</td>
+                    <td class="comments">It must be contained in a parent element: an ordered list, an unordered list, or a menu.</td>
+                </tr>
+                <tr>
+                    <td class="tag monospace">&lt;image&gt;</td>
+                    <td class="name">Image Embed</td>
+                    <td class="description">The element that embeds an image into the document.</td>
+                    <td class="comments">A self-closing tag.</td>
+                </tr>
+            </tbody>
+        
+<!-- Attributes Table -->            
+        <table>
+            <tr><h2>Attributes</h2></tr>
+            <tr>
+                <th class="attribute"><h3>Attribute</h3></th>
+                <th class="name"><h3>Name</h3></th>
+                <th class="description"><h3>Description</h3></th>
+                <th class="comments"><h3>Comments</h3></th>
+            </tr>
+            <tr>
+                <td class="attribute monospace">id</td>
+                <td class="name">Identifier</td>
+                <td class="description">The global attribute that defines an identifier.</td>
+                <td class="comments">ID which must be unique in the whole document.</td>
+            </tr>
+                <td class="attribute monospace">class</td>
+                <td class="name">Class</td>
+                <td class="description">The global attribute, a space-separated list of the case-sensitive classes of the element.</td>
+                <td class="comments">Classes allow CSS and JavaScript to select and access specific elements via the class selectors or functions.</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
